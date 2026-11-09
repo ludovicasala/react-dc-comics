@@ -1,13 +1,15 @@
-import AppProva from "./componenti/AppProva"
+import AppHeader from "./componenti/AppHeader"
+import AppMain from "./componenti/AppMain"
+import AppFooter from "./componenti/AppFooter"
 
 function App() {
   return (
     <>
-      <AppProva />
-      <div>Hello React</div>
+      <AppHeader />
+      <AppMain />
+      <AppFooter />
     </>
   )
-
 }
 
 export default App
