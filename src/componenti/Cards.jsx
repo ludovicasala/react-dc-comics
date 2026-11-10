@@ -167,6 +167,11 @@ function Cards() {
           </div>
         ))}
       </div>
+
+      <div className="button-container">
+        <button className="load-more-btn">LOAD MORE</button>
+      </div>
+
     </section>
   );
 }
