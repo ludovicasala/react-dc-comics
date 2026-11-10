@@ -90,3 +90,38 @@ header nav ul li a {
     font-size: 13px;
     padding: 10px 40px;
 }
+
+/* Sfondo azzurro della fascia */
+.info-banner {
+    background-color: #0282f9;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    gap: 20px;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.info-card img {
+    height: 40px;
+    max-width: 40px;
+    object-fit: contain;
+}
+
+.info-card span {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
