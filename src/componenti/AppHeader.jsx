@@ -2,11 +2,6 @@ import Logo from "./Logo";
 
 function AppHeader() {
 
-    /* const stileLogo = {
-        height: 45px;
-        display: block;
-    }; */
-
     const linksObjects = [
         { id: 1, text: 'CHARACTERS', url: '#' },
         { id: 2, text: 'COMICS', url: '#' },
